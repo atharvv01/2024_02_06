@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body,html{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+
+.mainbody{
+    position: absolute;
+    top: 115px;
+    left: 240px;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.scrollable_main_body{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.row
+{
+    background-color: brown;
+    height: 350px;
+    width: 100%;
+}
