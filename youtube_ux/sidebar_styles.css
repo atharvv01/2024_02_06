@@ -10,6 +10,8 @@ body,html{
 }
 
 .sidebar{
+    top: 54px;
+    position: fixed;
     display: flex;
     width: 240px;
     flex-direction: column;
